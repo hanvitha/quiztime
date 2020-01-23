@@ -1,0 +1,5 @@
+#ignoring all ide related files
+.idea*
+__pycac*
+static/.DS_*
+
