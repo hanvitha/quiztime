@@ -1,0 +1,20 @@
+[
+  {
+    "id" : 1,
+    "question" : "Number of planets in our Solar System as of today?",
+    "img" : "imgs/1.jpg",
+    "options" : [["0_The correct answer is 8", "9"], ["1_The correct answer is 8","8"], ["0_The correct answer is 8","12"], ["0_The correct answer is 8","7"]]
+  },
+  {
+    "id" : 2,
+    "question" : "What programming is the below snippet written?",
+    "img" : "imgs/2.jpg",
+    "options" : [["0_The correct answer is Java","C++"], ["0_The correct answer is Java", "Python"], ["0_The correct answer is Java", "Go"], ["1_The correct answer is Java", "Java"]]
+  },
+  {
+    "id" : 3,
+    "question" : "Who is the CEO of SpaceX company?",
+    "img" : "imgs/3.jpg",
+    "options" : [["0_The correct answer is Elon Musk", "Jeff Bezos"], ["0_The correct answer is Elon Musk","James Frederick"], ["1_The correct answer is Elon Musk","Elon Musk"], ["0_The correct answer is Elon Musk","Tim Cook"]]
+  }
+]

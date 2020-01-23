@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quiz Time</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            background-image: url({{ url_for('static', filename='bg2.png')}});
+        }
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+        h2{
+            font-size:3vw;
+        }
+        #form1 {
+            background:transparent;
+            font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+            color: #c8bfbf;
+        }
+
+        #sub {
+            background: transparent;
+            display: inline-block;
+            padding: 5px 14px;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+        }
+        #sub:hover{
+            display: inline-block;
+            background-color: #a7a5a5;
+            color:black;
+        }
+        input[type=radio]{
+            transform:scale(1.5);
+        }
+        .myimage{
+            padding: 4px;
+            background-color: #6e6361;
+            border: 1px solid #050505;
+            border-radius: 25px;
+            -webkit-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+            display: inline-block;
+            max-width: 60%;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+<form id="form1" class="jumbotron" action="{{ url_for('result') }}" method="POST" enctype="multipart/form-data">
+    <nav class="navbar">
+        <div class=" text-center">
+            <h2> {{ question }}</h2>
+        </div>
+    </nav>
+    <div class="container"></div>
+        <div class="container center text-center" >
+                <img src="{{ url_for( 'static', filename=image ) }}" class="myimage">
+        </div>
+    </div>
+    <div class="container"></div>
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <h2>
+                <!-- Group of material radios - options-->
+
+                <div class="col-sm-6">
+                    <div class="row">
+                        <input type="radio" class="form-check-input" id="radioGroup1"
+                               name="options" required value="{{ options[0][0] }}">
+                        <label class="radio-inline form-check-label" for="radioGroup1">{{ options[0][1] }}</label>
+                    </div>
+
+                    <div class="row">
+                        <input type="radio" class="form-check-input" id="radioGroup2"
+                               name="options" required value="{{ options[1][0] }}">
+                        <label class="radio-inline form-check-label" for="radioGroup2">{{ options[1][1] }}</label>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="row">
+                        <input type="radio" class="form-check-input" id="radioGroup3"
+                               name="options" required value="{{ options[2][0] }}">
+                        <label class="radio-inline form-check-label" for="radioGroup3">{{ options[2][1] }}</label>
+                    </div>
+
+                    <div class="row">
+                        <input type="radio" class="form-check-input" id="radioGroup4"
+                               name="options" required value="{{ options[3][0] }}">
+                        <label class="radio-inline form-check-label" for="radioGroup4">{{ options[3][1] }}</label>
+                    </div>
+                </div>
+            </h2>
+        </div>
+    </div>
+    <br>
+
+    <div class="pager container-fluid text-center">
+        <h3><input id="sub" class="center-nav" type=Submit></h3>
+    </div>
+</form>
+</body>
+</html>
