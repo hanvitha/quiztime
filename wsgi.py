@@ -24,7 +24,7 @@ def home():
     return render_template("home.html", question = data_dict[i]['question'], image = data_dict[i]['img'], options = data_dict[i]['options'])
 
 
-@app.route("/stats", strict_slashes=False)
+@app.route("/stats", methods=["GET"], strict_slashes=False)
 def users():
     return render_template("stats.html", count=index_counter)
 

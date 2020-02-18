@@ -8,14 +8,28 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
-        body {
-            background-image: url({{ url_for('static', filename='bg2.png')}})
+        body{
+            background: black;
+            background-image: url({{ url_for('static', filename='redhat.png')}});
+            background-size: 100% 110%;
+            background-repeat: no-repeat;
+        }
+        @keyframes fadeInRight {
+          0% {
+            opacity: 0;
+            transform: translate3d(100%, 0, 0);
+          }
+
+          100% {
+            opacity: 1;
+            transform: none;
+          }
         }
 
         #div1 {
-            background: transparent;
+            background:transparent;
             font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
-            color: #c8bfbf;
+            color: #cacaca;
             padding: 100px;
         }
 
@@ -32,8 +46,8 @@
             background-color: transparent;
         }
         .pager li > a:hover, .pager li > span:hover {
-            background-color: #a7a5a5;
-            color:black;
+            background-color: #cacaca;
+            color:#430000;
         }
         h2{
             font-size:3vw;
@@ -44,11 +58,11 @@
     </style>
 </head>
 <body>
-<div id="div1" class="jumbotron">
+<div id="div1" class="jumbotron fadeInRight" >
 
     <div class="container">
         <div class="container text-center">
-            <h1>{{ result }}</h1>
+            <h2>{{ result }}</h2>
         </div>
     </div>
     <ul class="pager">

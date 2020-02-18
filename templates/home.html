@@ -9,7 +9,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
         body{
-            background-image: url({{ url_for('static', filename='bg2.png')}});
+            background: black;
+            background-image: url({{ url_for('static', filename='redhat.png')}});
+            background-size: 100% 110%;
+            background-repeat: no-repeat;
+            font-size:2vw;
         }
         /* Remove the navbar's default margin-bottom and rounded borders */
         .navbar {
@@ -19,10 +23,13 @@
         h2{
             font-size:3vw;
         }
+        h3{
+            font-size:2vw;
+        }
         #form1 {
             background:transparent;
             font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
-            color: #c8bfbf;
+            color: #cacaca;
         }
 
         #sub {
@@ -34,23 +41,29 @@
         }
         #sub:hover{
             display: inline-block;
-            background-color: #a7a5a5;
-            color:black;
+            background-color: #cacaca;
+            color:#430000;
         }
         input[type=radio]{
             transform:scale(1.5);
         }
         .myimage{
             padding: 4px;
-            background-color: #6e6361;
-            border: 1px solid #050505;
+            background-color: #430000;
+            border: 1px solid #644848;
             border-radius: 25px;
             -webkit-transition: all .2s ease-in-out;
             -o-transition: all .2s ease-in-out;
             transition: all .2s ease-in-out;
             display: inline-block;
-            max-width: 60%;
+            width: 60%;
             height: auto;
+            -moz-box-shadow: 1px 1px 5px #999;
+            -webkit-box-shadow: 1px 1px 5px #999;
+            box-shadow: 1px 1px 5px #999;
+        }
+        #ques{
+            padding: 1% 2% 1% 2%;
         }
 
     </style>
@@ -58,11 +71,11 @@
 <body>
 <form id="form1" class="jumbotron" action="{{ url_for('result') }}" method="POST" enctype="multipart/form-data">
     <nav class="navbar">
-        <div class=" text-center">
+        <div id="ques" class=" text-center">
             <h2> {{ question }}</h2>
         </div>
     </nav>
-    <div class="container"></div>
+    <div class="shadow container"></div>
         <div class="container center text-center" >
                 <img src="{{ url_for( 'static', filename=image ) }}" class="myimage">
         </div>
@@ -70,7 +83,6 @@
     <div class="container"></div>
     <div class="container-fluid bg-3 text-center">
         <div class="row">
-            <h2>
                 <!-- Group of material radios - options-->
 
                 <div class="col-sm-6">
@@ -100,11 +112,8 @@
                         <label class="radio-inline form-check-label" for="radioGroup4">{{ options[3][1] }}</label>
                     </div>
                 </div>
-            </h2>
         </div>
     </div>
-    <br>
-
     <div class="pager container-fluid text-center">
         <h3><input id="sub" class="center-nav" type=Submit></h3>
     </div>

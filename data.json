@@ -1,20 +1,660 @@
 [
   {
-    "id" : 1,
-    "question" : "Number of planets in our Solar System as of today?",
-    "img" : "imgs/1.jpg",
-    "options" : [["0_The correct answer is 8", "9"], ["1_The correct answer is 8","8"], ["0_The correct answer is 8","12"], ["0_The correct answer is 8","7"]]
+    "id": 1,
+    "question": "Which of the following conditions on Mars would be the first to kill a human who is unprotected and unassisted by life support?",
+    "img": "imgs/1.jpg",
+    "options": [
+      [
+        "0_The correct answer is Low air pressure",
+        "Colder than Antarctic temperatures"
+      ],
+      [
+        "1_The correct answer is Low air pressure",
+        "Low air pressure"
+      ],
+      [
+        "0_The correct answer is Low air pressure",
+        "High CO2 atmosphere"
+      ],
+      [
+        "0_The correct answer is Low air pressure",
+        "Excess solar radiation"
+      ]
+    ]
   },
   {
-    "id" : 2,
-    "question" : "What programming is the below snippet written?",
-    "img" : "imgs/2.jpg",
-    "options" : [["0_The correct answer is Java","C++"], ["0_The correct answer is Java", "Python"], ["0_The correct answer is Java", "Go"], ["1_The correct answer is Java", "Java"]]
+    "id": 2,
+    "question": "What programming is the below snippet written?",
+    "img": "imgs/2.png",
+    "options": [
+      [
+        "0_The correct answer is Java",
+        "C++"
+      ],
+      [
+        "0_The correct answer is Java",
+        "Python"
+      ],
+      [
+        "0_The correct answer is Java",
+        "Go"
+      ],
+      [
+        "1_The correct answer is Java",
+        "Java"
+      ]
+    ]
   },
   {
-    "id" : 3,
-    "question" : "Who is the CEO of SpaceX company?",
-    "img" : "imgs/3.jpg",
-    "options" : [["0_The correct answer is Elon Musk", "Jeff Bezos"], ["0_The correct answer is Elon Musk","James Frederick"], ["1_The correct answer is Elon Musk","Elon Musk"], ["0_The correct answer is Elon Musk","Tim Cook"]]
+    "id": 3,
+    "question": "Who is the CEO of SpaceX company?",
+    "img": "imgs/3.jpg",
+    "options": [
+      [
+        "0_The correct answer is Elon Musk",
+        "Jeff Bezos"
+      ],
+      [
+        "0_The correct answer is Elon Musk",
+        "James Frederick"
+      ],
+      [
+        "1_The correct answer is Elon Musk",
+        "Elon Musk"
+      ],
+      [
+        "0_The correct answer is Elon Musk",
+        "Tim Cook"
+      ]
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Which one of the four basic forces of the universe is most directly involved with\nmaintaining the planets in their orbits?",
+    "img": "imgs/4.jpg",
+    "options": [
+      [
+        "0_The correct answer is Gravity",
+        "Weak Nuclear Force"
+      ],
+      [
+        "0_The correct answer is Gravity",
+        "Electro Magnetism"
+      ],
+      [
+        "0_The correct answer is Gravity",
+        "Strong Nuclear Force"
+      ],
+      [
+        "1_The correct answer is Gravity",
+        "Gravity"
+      ]
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the measure, in degrees, of each angle in an equilateral triangle?",
+    "img": "imgs/5.jpg",
+    "options": [
+      [
+        "0_The correct answer is 60,60,60",
+        "45,50,70"
+      ],
+      [
+        "1_The correct answer is 60,60,60",
+        "60,60,60"
+      ],
+      [
+        "0_The correct answer is 60,60,60",
+        "70,70,70"
+      ],
+      [
+        "0_The correct answer is 60,60,60",
+        "45,45,90"
+      ]
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What does acronym FOSS stand for?",
+    "img": "imgs/6.png",
+    "options": [
+      [
+        "1_The correct answer is Free and Open-Source Software",
+        "Free and Open-Source Software"
+      ],
+      [
+        "0_The correct answer is Free and Open-Source Software",
+        "Full Option Sensor System"
+      ],
+      [
+        "0_The correct answer is Free and Open-Source Software",
+        "Follow-On Support Service"
+      ],
+      [
+        "0_The correct answer is Free and Open-Source Software",
+        "Fiber Optics Science System"
+      ]
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What technology is used to make telephone calls over the Internet possible?",
+    "img": "imgs/7.png",
+    "options": [
+      [
+        "0_The correct answer is VoIP",
+        "Bluetooth"
+      ],
+      [
+        "0_The correct answer is VoIP",
+        "Ethernet"
+      ],
+      [
+        "0_The correct answer is VoIP",
+        "NFC"
+      ],
+      [
+        "1_The correct answer is VoIP",
+        "VoIP"
+      ]
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the term for text that automatically continues from one line to the next?",
+    "img": "imgs/8.jpg",
+    "options": [
+      [
+        "0_The correct answer is Word wrapping",
+        "Word processing"
+      ],
+      [
+        "1_The correct answer is Word wrapping",
+        "Word wrapping"
+      ],
+      [
+        "0_The correct answer is Word wrapping",
+        "Word flowing"
+      ],
+      [
+        "0_The correct answer is Word wrapping",
+        "Word binding"
+      ]
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Approximately, how much data exists in the digital universe today?",
+    "img": "imgs/9.jpg",
+    "options": [
+      [
+        "0_The correct answer is 2.7 zetabytes. A terabyte is equal to 1,024 gigabytes. A petabyte is equal to 1,024 terabytes. An exabyte is equal to 1,024 petabytes. A zettabyte is equal to 1,024 exabytes",
+        "2.7 megabytes"
+      ],
+      [
+        "0_The correct answer is 2.7 zetabytes. A terabyte is equal to 1,024 gigabytes. A petabyte is equal to 1,024 terabytes. An exabyte is equal to 1,024 petabytes. A zettabyte is equal to 1,024 exabytes",
+        "2.7 gigabytes"
+      ],
+      [
+        "1_The correct answer is 2.7 zetabytes. A terabyte is equal to 1,024 gigabytes. A petabyte is equal to 1,024 terabytes. An exabyte is equal to 1,024 petabytes. A zettabyte is equal to 1,024 exabytes",
+        "2.7 zetabytes"
+      ],
+      [
+        "0_The correct answer is 2.7 zetabytes. A terabyte is equal to 1,024 gigabytes. A petabyte is equal to 1,024 terabytes. An exabyte is equal to 1,024 petabytes. A zettabyte is equal to 1,024 exabytes",
+        "2.7 terabytes"
+      ]
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Which tech buzzword is closely related to Artificial Intelligence (AI)?",
+    "img": "imgs/10.png",
+    "options": [
+      [
+        "0_The correct answer is Machine learning",
+        "Virtual reality"
+      ],
+      [
+        "1_The correct answer is Machine learning",
+        "Machine learning"
+      ],
+      [
+        "0_The correct answer is Machine learning",
+        "Cryptocurrency"
+      ],
+      [
+        "0_The correct answer is Machine learning",
+        "Microservices"
+      ]
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is an important step towards the paperless concept?",
+    "img": "imgs/11.jpg",
+    "options": [
+      [
+        "0_The correct answer is Digitizing",
+        "Doxing"
+      ],
+      [
+        "1_The correct answer is Digitizing",
+        "Digitizing"
+      ],
+      [
+        "0_The correct answer is Digitizing",
+        "Debugging"
+      ],
+      [
+        "0_The correct answer is Digitizing",
+        "Downloading"
+      ]
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is the most common source of energy for brain cells in humans?",
+    "img": "imgs/12.png",
+    "options": [
+      [
+        "0_The correct answer is Glucose",
+        "Nucleic acids"
+      ],
+      [
+        "0_The correct answer is Glucose",
+        "Proteins"
+      ],
+      [
+        "1_The correct answer is Glucose",
+        "Glucose"
+      ],
+      [
+        "0_The correct answer is Glucose",
+        "Pectins"
+      ]
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is NOT a mineral?",
+    "img": "imgs/13.jpg",
+    "options": [
+      [
+        "0_The correct answer is basalt. Basalt is Not a mineral",
+        "Quartz"
+      ],
+      [
+        "0_The correct answer is basalt. Basalt is Not a mineral",
+        "Topaz"
+      ],
+      [
+        "1_The correct answer is basalt. Basalt is Not a mineral",
+        "Basalt"
+      ],
+      [
+        "0_The correct answer is basalt. Basalt is Not a mineral",
+        "Diamond"
+      ]
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is the hottest region of planet Earth?",
+    "img": "imgs/14.png",
+    "options": [
+      [
+        "0_The correct answer is the inner core",
+        "the mantle"
+      ],
+      [
+        "1_The correct answer is the inner core",
+        "the inner core"
+      ],
+      [
+        "0_The correct answer is the inner core",
+        "the outer core"
+      ],
+      [
+        "0_The correct answer is the inner core",
+        "the crust"
+      ]
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Raha Moharrak, the first Saudi woman to climb Everest, is trying to boil water for rice at base camp. How should she alter her recipe at a high elevation?",
+    "img": "imgs/15.jpeg",
+    "options": [
+      [
+        "0_The correct answer is: She should simmer the rice for more time. Because air pressure is lower at high altitudes, water boils at a lower temperature.",
+        "simmer the rice for less time"
+      ],
+      [
+        "1_The correct answer is: She should simmer the rice for more time. Because air pressure is lower at high altitudes, water boils at a lower temperature.",
+        "simmer the rice for more time"
+      ],
+      [
+        "0_The correct answer is: She should simmer the rice for more time. Because air pressure is lower at high altitudes, water boils at a lower temperature.",
+        "cook the rice at lower temp"
+      ],
+      [
+        "0_The correct answer is: She should simmer the rice for more time. Because air pressure is lower at high altitudes, water boils at a lower temperature.",
+        "cook the rice at higher temp"
+      ]
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Every Network Interface Card has a _______ address, which is a unique identifier?",
+    "img": "imgs/16.jpg",
+    "options": [
+      [
+        "0_The correct answer MAC Address",
+        "GUI"
+      ],
+      [
+        "0_The correct answer MAC Address",
+        "NIC"
+      ],
+      [
+        "1_The correct answer MAC Address",
+        "MAC"
+      ],
+      [
+        "0_The correct answer MAC Address",
+        "CPU"
+      ]
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Which is considered to be the computers short-term memory?",
+    "img": "imgs/17.jpg",
+    "options": [
+      [
+        "0_The correct answer is RAM",
+        "REM"
+      ],
+      [
+        "0_The correct answer is RAM",
+        "ROM"
+      ],
+      [
+        "0_The correct answer is RAM",
+        "RIM"
+      ],
+      [
+        "1_The correct answer is RAM",
+        "RAM"
+      ]
+    ]
+  },
+  {
+    "id": 18,
+    "question": "What are the four major components of a computer?",
+    "img": "imgs/18.jpg",
+    "options": [
+      [
+        "0_The correct answer is Input Devices, Central Processing Unit, Storage, Output Devices",
+        "Input & Output Devices, Motherboard, Storage"
+      ],
+      [
+        "1_The correct answer is Input Devices, Central Processing Unit, Storage, Output Devices",
+        "Input & Output Devices, CPU, Storage"
+      ],
+      [
+        "0_The correct answer is Input Devices, Central Processing Unit, Storage, Output Devices",
+        "Motherboard, CPU, Storage, Output Devices"
+      ],
+      [
+        "0_The correct answer is Input Devices, Central Processing Unit, Storage, Output Devices",
+        "Input & Output Devices, CPU, Memory"
+      ]
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Which one has two examples of output devices?",
+    "img": "imgs/19.jpg",
+    "options": [
+      [
+        "0_The correct answer is Printer and speaker",
+        "Monitor and scanner"
+      ],
+      [
+        "0_The correct answer is Printer and speaker",
+        "Speaker and keyboard"
+      ],
+      [
+        "0_The correct answer is Printer and speaker",
+        "Printer and scanner"
+      ],
+      [
+        "1_The correct answer is Printer and speaker",
+        "Printer and speaker"
+      ]
+    ]
+  },
+  {
+    "id": 20,
+    "question": "What is the brain of the Computer?",
+    "img": "imgs/20.jpeg",
+    "options": [
+      [
+        "0_The correct answer is CPU",
+        "Motherboard"
+      ],
+      [
+        "0_The correct answer is CPU",
+        "Memory"
+      ],
+      [
+        "1_The correct answer is CPU",
+        "CPU"
+      ],
+      [
+        "0_The correct answer is CPU",
+        "NIC"
+      ]
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Application software...",
+    "img": "imgs/21.jpg",
+    "options": [
+      [
+        "0_The correct answer is it lets the user perform a task.",
+        "Tells the computer components what to do"
+      ],
+      [
+        "0_The correct answer is it lets he user perform a task.",
+        "Let's the computer interact with the user"
+      ],
+      [
+        "1_The correct answer is it lets the user perform a task.",
+        "Let's the user perform a task."
+      ],
+      [
+        "0_The correct answer it lets the user perform a task.",
+        "Is encoded on a piece of hardware."
+      ]
+    ]
+  },
+  {
+    "id": 22,
+    "question": "How do programs make request to the Operating System?",
+    "img": "imgs/22.png",
+    "options": [
+      [
+        "0_The correct answer is API",
+        "GUI"
+      ],
+      [
+        "1_The correct answer is API",
+        "API"
+      ],
+      [
+        "0_The correct answer is API",
+        "TCP"
+      ],
+      [
+        "0_The correct answer is API",
+        "SMB"
+      ]
+    ]
+  },
+  {
+    "id": 23,
+    "question": "WWW stands for?",
+    "img": "imgs/23.jpg",
+    "options": [
+      [
+        "0_The correct answer is World Wide Web",
+        "Welcome World Wide"
+      ],
+      [
+        "0_The correct answer is World Wide Web",
+        "World Women Workforce"
+      ],
+      [
+        "0_The correct answer is World Wide Web",
+        "Woman World Wide"
+      ],
+      [
+        "1_The correct answer is World Wide Web",
+        "World Wide Web"
+      ]
+    ]
+  },
+   {
+    "id": 24,
+    "question": "Everything physical in a computer is attached to the...",
+    "img": "imgs/24.jpg",
+    "options": [
+      [
+        "1_The correct answer is Motherboard",
+        "Motherboard"
+      ],
+      [
+        "0_The correct answer is Motherboard",
+        "Memory"
+      ],
+      [
+        "0_The correct answer is Motherboard",
+        "CPU"
+      ],
+      [
+        "0_The correct answer is Motherboard",
+        "Hard Drive"
+      ]
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Everything physical in a computer is attached to the...",
+    "img": "imgs/25.jpg",
+    "options": [
+      [
+        "0_The correct answer is Motherboard",
+        "Motherboard"
+      ],
+      [
+        "0_The correct answer is Motherboard",
+        "Memory"
+      ],
+      [
+        "1_The correct answer is Motherboard",
+        "CPU"
+      ],
+      [
+        "0_The correct answer is Motherboard",
+        "Hard Drive"
+      ]
+    ]
+  },
+  {
+    "id": 26,
+    "question": "What does GUI stand for....?",
+    "img": "imgs/26.jpg",
+    "options": [
+      [
+        "0_The correct answer is Graphical User Interface",
+        "Graphical User Interim"
+      ],
+      [
+        "0_The correct answer is Graphical User Interface",
+        "Geographical User Interruption"
+      ],
+      [
+        "1_The correct answer is Graphical User Interface",
+        "Graphical User Interface"
+      ],
+      [
+        "0_The correct answer is Graphical User Interface",
+        "Gain Upper Intensity"
+      ]
+    ]
+  },
+   {
+    "id": 27,
+    "question": "Binary notation of 9",
+    "img": "imgs/27.jpg",
+    "options": [
+      [
+        "1_The correct answer is 00001001",
+        "00001001"
+      ],
+      [
+        "0_The correct answer is 00001001",
+        "00001111"
+      ],
+      [
+        "0_The correct answer is 00001001",
+        "111100011"
+      ],
+      [
+        "0_The correct answer is 00001001",
+        "00001101"
+      ]
+    ]
+  },
+  {
+    "id": 28,
+    "question": "What programming is the below snippet written?",
+    "img": "imgs/28.png",
+    "options": [
+      [
+        "0_The correct answer is Python",
+        "C++"
+      ],
+      [
+        "1_The correct answer is Python",
+        "Python"
+      ],
+      [
+        "0_The correct answer is Python",
+        "Go"
+      ],
+      [
+        "0_The correct answer is Python",
+        "Java"
+      ]
+      ]
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
