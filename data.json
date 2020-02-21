@@ -642,6 +642,75 @@
         "Java"
       ]
       ]
+  },
+  {
+    "id": 29,
+    "question": "Siri, Alexa, Google assistant...these are ____ based digital voice assistants",
+    "img": "imgs/29.jpeg",
+    "options": [
+      [
+        "1_The correct answer is Artificial Intelligence",
+        "Artificial Intelligence"
+      ],
+      [
+        "0_The correct answer is Artificial Intelligence",
+        "Quantum computing"
+      ],
+      [
+        "0_The correct answer is Artificial Intelligence",
+        "Computer Vision"
+      ],
+      [
+        "0_The correct answer is Artificial Intelligence",
+        "Data Mining"
+      ]
+      ]
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is an example of open source software?",
+    "img": "imgs/30.png",
+    "options": [
+      [
+        "0_The correct answer is Linux",
+        "Microsoft Windows"
+      ],
+      [
+        "0_The correct answer is Linux",
+        "PS3 OS"
+      ],
+      [
+        "0_The correct answer is Linux",
+        "macOS"
+      ],
+      [
+        "1_The correct answer is Linux",
+        "Linux"
+      ]
+      ]
+  },
+  {
+    "id": 31,
+    "question": "Which of the following is not an open source software?",
+    "img": "imgs/31.png",
+    "options": [
+      [
+        "1_The correct answer is Microsoft Windows",
+        "Microsoft Windows"
+      ],
+      [
+        "0_The correct answer is Microsoft Windows",
+        "Ubuntu"
+      ],
+      [
+        "0_The correct answer is Microsoft Windows",
+        "Android"
+      ],
+      [
+        "1_The correct answer is Microsoft Windows",
+        "Chrome"
+      ]
+      ]
   }
 ]
 
